@@ -1,0 +1,53 @@
+body{
+    background-color: #0d192b;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.titulo{
+    color: white;
+    margin-bottom: 10px;
+}
+p{
+    color: #0d192b;
+}
+
+.social{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+
+.social-botao{
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.social-botao:hover{
+    background-color:rgb(74, 129, 233)  ;
+    transition:.5s;
+    padding: 15px;
+}
+
+.container{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    max-width: 350px;
+    height: 400px;
+
+}
+
+.foto{
+    border-radius: 50%;
+}
